@@ -1,8 +1,18 @@
 # DALL-E Mini Image Generator 🎨
 
+## Google Colab Notebook
+
+Run the project directly in Google Colab:
+
+🔗 [Open in Google Colab](https://colab.research.google.com/drive/14uiVtYgi30R_VFshkA-hgBvwK6QzU2dr#scrollTo=vvAgFeR0-0sZ)
+
+---
+
 ## Overview
 
 This project demonstrates the use of **DALL-E Mini (MinDalle)** to generate AI-powered images from text prompts. The notebook loads a pre-trained DALL-E Mini model, generates multiple image variations based on a user-defined prompt, and displays the results in a grid format.
+
+---
 
 ## Features
 
@@ -13,6 +23,8 @@ This project demonstrates the use of **DALL-E Mini (MinDalle)** to generate AI-p
 - Displays generated images in a grid
 - Allows selection and saving of the best image
 
+---
+
 ## Technologies Used
 
 - Python
@@ -22,6 +34,8 @@ This project demonstrates the use of **DALL-E Mini (MinDalle)** to generate AI-p
 - Matplotlib
 - Pillow (PIL)
 - OpenAI CLIP
+
+---
 
 ## Installation
 
@@ -34,6 +48,8 @@ pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
 pip install pillow matplotlib numpy
 ```
+
+---
 
 ## Usage
 
@@ -70,6 +86,16 @@ image = model.generate_image(
 
 The notebook generates a grid of AI-created images based on the provided prompt. Users can select the best image from the generated outputs.
 
+---
+
+## Example Prompt
+
+```text
+a place with beautiful scenery, digital art
+```
+
+---
+
 ## Project Structure
 
 ```text
@@ -77,11 +103,7 @@ The notebook generates a grid of AI-created images based on the provided prompt.
 ├── README.md
 ```
 
-## Example Prompt
-
-```text
-a place with beautiful scenery, digital art
-```
+---
 
 ## Future Enhancements
 
@@ -91,6 +113,8 @@ a place with beautiful scenery, digital art
 - Automatic image download functionality
 - Prompt history management
 
+---
+
 ## Learning Outcomes
 
 - Understanding text-to-image generation
@@ -99,9 +123,13 @@ a place with beautiful scenery, digital art
 - GPU-based deep learning inference
 - Using DALL-E Mini for creative AI applications
 
+---
+
 ## Author
 
 **Amrita Khosla**
+
+---
 
 ## License
 
